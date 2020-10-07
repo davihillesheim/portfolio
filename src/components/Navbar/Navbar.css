@@ -1,3 +1,21 @@
+nav {
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
 }
