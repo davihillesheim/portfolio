@@ -16,8 +16,12 @@
 
 .intro-title {
     color: white;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 .intro-subtitle {
     color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
