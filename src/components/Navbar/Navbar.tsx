@@ -14,10 +14,10 @@ const Navbar = () => {
   }
 
   return (
-    <div>
+    <div className="nav">
       <nav>
         <ul>
-          <li className="nav-item">
+          <li className="nav-item nav-text">
             <Link
             className='link'
             activeClass='active'
@@ -31,7 +31,7 @@ const Navbar = () => {
             Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-text">
             <Link
             className='link'
             activeClass='active'
@@ -44,7 +44,7 @@ const Navbar = () => {
             About
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-text">
             <Link
             className='link'
             activeClass='active'
@@ -57,7 +57,7 @@ const Navbar = () => {
             Projects
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item nav-text">
             <Link
             className='link'
             activeClass='active'

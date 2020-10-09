@@ -16,6 +16,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-text {
+  color: white;
+}
+
 ul {
   list-style-type: none;
 }
