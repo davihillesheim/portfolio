@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    background-color:whitesmoke;
+}
+
+.about-container {
+    max-width: 1140px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+    background-color: white;
+}
+
+.text-formatter {
+    margin: 5% 10% 5% 10%;
+}
+
+h5 {
+    font-size: 2.7rem;
+    text-align: left;
+}
+
+.about-paragraph {
+    text-align: justify;
+}
