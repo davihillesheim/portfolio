@@ -14,8 +14,8 @@ const Home = () => {
           <div className="container">
             <h1 className="intro-title">Hi, I am Davi Hillesheim</h1>
             <p className="intro-subtitle">
-                <span className="text-slider-items"></span>
-                <strong className="text-slider">
+                <span></span>
+                <strong>
                   <Typed
                     strings={[
                       "Front End Developer",
