@@ -1,17 +1,9 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
+import { scrollToTop, scrollToBottom } from 'react-scroll/modules/mixins/animate-scroll';
 import './Navbar.css';
 
 const Navbar = () => {
-
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  }
-  
-  const scrollToBottom = () => {
-    scroll.scrollToBottom();
-  }
 
   return (
     <div className="nav">
