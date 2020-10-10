@@ -1,0 +1,14 @@
+.project-card {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.project-content {
+    grid-column: 7 / -1;
+    text-align: right;
+}
+
+.grid-image {
+    grid-column: 1 / 8;
+}
